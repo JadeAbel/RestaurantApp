@@ -86,7 +86,7 @@ function Cart() {
                       }}
                     >
                       <Link href="/checkout">
-                        <Button style={{ width: "100%" }} color="primary">
+                        <Button style={{ width: "100%" }} color="info">
                           <a>Order</a>
                         </Button>
                       </Link>
