@@ -40,7 +40,7 @@ const Layout = (props) => {
         <Nav className="navbar navbar-info bg-info">
           <NavItem>
             <Link href="/">
-              <a className="navbar-brand">Home</a>
+              <a className="navbar-brand">HOME</a>
             </Link>
           </NavItem>
 
@@ -49,7 +49,7 @@ const Layout = (props) => {
               <h5>{user.username}</h5>
             ) : (
               <Link href="/register">
-                <a className="nav-link"> Sign up</a>
+                <a className="nav-link"> SIGN UP</a>
               </Link>
             )}
           </NavItem>
@@ -68,7 +68,7 @@ const Layout = (props) => {
               </Link>
             ) : (
               <Link href="/login">
-                <a className="nav-link">Sign in</a>
+                <a className="nav-link">SIGN IN</a>
               </Link>
             )}
           </NavItem>
