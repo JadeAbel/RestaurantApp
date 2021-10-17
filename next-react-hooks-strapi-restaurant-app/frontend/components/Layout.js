@@ -8,7 +8,7 @@ import { logout } from "../lib/auth";
 import AppContext from "../context/AppContext";
 
 const Layout = (props) => {
-  const title = "Welcome to Nextjs";
+  const title = "Full-Stack Restaurant App";
   const { user, setUser } = useContext(AppContext);
 
   return (
@@ -37,7 +37,7 @@ const Layout = (props) => {
             }
           `}
         </style>
-        <Nav className="navbar navbar-dark bg-dark">
+        <Nav className="navbar navbar-info bg-info">
           <NavItem>
             <Link href="/">
               <a className="navbar-brand">Home</a>

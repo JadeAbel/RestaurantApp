@@ -66,7 +66,7 @@ function Restaurants() {
                 <div className="card-footer">
                   <Button
                     outline
-                    color="primary"
+                    color="info"
                     onClick={() => appContext.addItem(res)}
                   >
                     + Add To Cart
@@ -84,7 +84,7 @@ function Restaurants() {
                       .container-fluid {
                         margin-bottom: 30px;
                       }
-                      .btn-outline-primary {
+                      .btn-outline-info {
                         color: #007bff !important;
                       }
                       a:hover {

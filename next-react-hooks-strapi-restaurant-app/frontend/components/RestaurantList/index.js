@@ -58,7 +58,7 @@ function RestaurantList(props) {
                     as={`/restaurants/${res.id}`}
                     href={`/restaurants?id=${res.id}`}
                   >
-                    <a className="btn btn-primary">View</a>
+                    <a className="btn btn-info">View</a>
                   </Link>
                 </div>
               </Card>
