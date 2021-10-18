@@ -13,7 +13,6 @@ import {
   Input,
 } from "reactstrap";
 import { registerUser } from "../lib/auth";
-// import img from "../components/JPG.logo.purple.white.jpg"
 import AppContext from "../context/AppContext";
 
 const Register = () => {

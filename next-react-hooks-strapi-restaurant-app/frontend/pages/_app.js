@@ -124,7 +124,7 @@ class MyApp extends App {
     // Any styles that you put here should apply. (unless other styles have importance)
     const css = `
     body {
-        background-color: blue !important;
+        background-color: #F8C471 !important;
       } 
     `;
 
