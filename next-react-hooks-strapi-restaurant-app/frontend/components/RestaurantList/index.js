@@ -44,11 +44,12 @@ function RestaurantList(props) {
           {searchQuery.map((res) => (
             <Col xs="6" sm="4" key={res.id}>
               <Card style={{ margin: "0 0.5rem 20px 0.5rem" }}>
-                <CardImg
-                  top={true}
-                  style={{ height: 250 }}
-                  src={`${process.env.NEXT_PUBLIC_API_URL}${res.image[0].url}`}
-                />
+                <div style={{ height: 393, overflow: "hidden" }}>
+                  <CardImg
+                    top={true}
+                    src={`${process.env.NEXT_PUBLIC_API_URL}${res.image[0].url}`}
+                  />
+                </div>
                 <CardBody>
                   <CardTitle>{res.name}</CardTitle>
                   <CardText>{res.description}</CardText>

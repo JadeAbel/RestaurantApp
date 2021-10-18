@@ -54,11 +54,12 @@ function Restaurants() {
           {restaurant.dishes.map((res) => (
             <Col xs="6" sm="4" style={{ padding: 0 }} key={res.id}>
               <Card style={{ margin: "0 10px" }}>
-                <CardImg
-                  top={true}
-                  style={{ height: 250 }}
-                  src={`${process.env.NEXT_PUBLIC_API_URL}${res.image.url}`}
-                />
+                <div style={{ height: 393, overflow: "hidden" }}>
+                  <CardImg
+                    top={true}
+                    src={`${process.env.NEXT_PUBLIC_API_URL}${res.image.url}`}
+                  />
+                </div>
                 <CardBody>
                   <CardTitle>{res.name}</CardTitle>
                   <CardText>{res.description}</CardText>
