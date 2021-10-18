@@ -117,8 +117,16 @@ class MyApp extends App {
       );
     }
   };
+
   render() {
     const { Component, pageProps } = this.props;
+
+    // Any styles that you put here should apply. (unless other styles have importance)
+    const css = `
+    body {
+        background-color: blue !important;
+      } 
+    `;
 
     return (
       <AppContext.Provider
@@ -132,6 +140,7 @@ class MyApp extends App {
         }}
       >
         <Head>
+          <style>{css}</style>
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
