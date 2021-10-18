@@ -123,7 +123,7 @@ function Login(props) {
           .header {
             width: 100%;
             height: 120px;
-            background-color: #2196f3;
+            background-color: #879fcf;
             margin-bottom: 30px;
             border-radius-top: 6px;
           }
